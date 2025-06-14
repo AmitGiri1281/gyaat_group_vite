@@ -20,7 +20,7 @@ const Footer = () => {
   // Business services data
   const businessServices = [
     {
-      title: "Aashray Realty",
+      title: "Aashray Realty Consultancy",
       description: "From your dream to your home",
       icon: <FiHome className="text-amber-500" />,
       services: [
@@ -30,21 +30,22 @@ const Footer = () => {
         "Developer Partnerships"
       ],
       email: "aashrayrealtyconsultancy@gmail.com"
+      
     },
     {
-      title: "Vriddhi Loans",
-      description: "Financial solutions for all needs",
-      icon: <FaRupeeSign className="text-amber-500" />,
+      title: "Sampaadana",
+      description: "Premium building materials",
+      icon: <FiLayers className="text-amber-500" />,
       services: [
-        "Home Loans",
-        "Loan Against Property",
-        "Business Loans",
-        "Personal Loans"
-      ],
-      email: "vriddhi.gyaat@gmail.com"
+        "Tiles & Flooring",
+        "Solar Solutions",
+        "Elevators",
+        "External Cladding"
+      ]
     },
+    
     {
-      title: "Siddhant Legal",
+      title: "Siddhant",
       description: "Comprehensive real estate legal services",
       icon: <FiShield className="text-amber-500" />,
       services: [
@@ -58,7 +59,7 @@ const Footer = () => {
 
   const additionalServices = [
     {
-      title: "Kalpa Architectural",
+      title: "Kalpa",
       description: "Designing your vision",
       icon: <FiFeather className="text-amber-500" />,
       services: [
@@ -79,16 +80,17 @@ const Footer = () => {
         "Manpower Management"
       ]
     },
-    {
-      title: "Sampaadana",
-      description: "Premium building materials",
-      icon: <FiLayers className="text-amber-500" />,
+   {
+      title: "Vriddhi ",
+      description: "Financial solutions for all needs",
+      icon: <FaRupeeSign className="text-amber-500" />,
       services: [
-        "Tiles & Flooring",
-        "Solar Solutions",
-        "Elevators",
-        "External Cladding"
-      ]
+        "Home Loans",
+        "Loan Against Property",
+        "Business Loans",
+        "Personal Loans"
+      ],
+      email: "vriddhi.gyaat@gmail.com"
     },
     {
       title: "Manthan",
