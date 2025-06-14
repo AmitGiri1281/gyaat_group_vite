@@ -4,10 +4,13 @@ import {
   FiMail, FiPhone, FiMapPin, FiClock,
   FiFacebook, FiInstagram, FiTwitter, FiLinkedin,
   FiYoutube, FiHome, FiUser, FiBookmark,
-  FiHelpCircle, FiShield, FiBriefcase, FiDollarSign,
+  FiHelpCircle, FiShield, FiBriefcase,
   FiLayers, FiTool, FiTruck, FiFeather, FiAnchor,
-  FiChevronRight // ✅ Add this line
+  FiChevronRight
 } from 'react-icons/fi';
+
+import { FaRupeeSign } from 'react-icons/fa'; // ✅ Use Font Awesome's rupee icon
+
 
 import { motion } from 'framer-motion';
 
@@ -31,7 +34,7 @@ const Footer = () => {
     {
       title: "Vriddhi Loans",
       description: "Financial solutions for all needs",
-      icon: <FiDollarSign className="text-amber-500" />,
+      icon: <FaRupeeSign className="text-amber-500" />,
       services: [
         "Home Loans",
         "Loan Against Property",

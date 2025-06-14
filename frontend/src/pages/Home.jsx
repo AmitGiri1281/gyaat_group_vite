@@ -313,7 +313,7 @@ const Home = () => {
             className="w-full h-full object-cover"
             poster={heroFallback}
           >
-            <source src={heroVideo} type="video/mp4" />
+            {/* <source src={heroVideo} type="video/mp4" /> */}
             <img src={heroFallback} alt="Luxury Home" className="w-full h-full object-cover" />
           </video>
         </div>
